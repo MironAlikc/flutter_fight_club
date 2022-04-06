@@ -46,7 +46,7 @@ class MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: FightClubColors.backgroud,
+      backgroundColor: FightClubColors.background,
       body: SafeArea(
         child: Column(
           children: [
@@ -229,7 +229,7 @@ class FightersInfo extends StatelessWidget {
                   ),
                   const SizedBox(height: 12),
                   Image.asset(
-                    FighClubImages.youAvatar,
+                    FightClubImages.youAvatar,
                     height: 92,
                     width: 92,
                   ),
@@ -250,7 +250,7 @@ class FightersInfo extends StatelessWidget {
                   ),
                   const SizedBox(height: 12),
                   Image.asset(
-                    FighClubImages.enemyAvatar,
+                    FightClubImages.enemyAvatar,
                     height: 92,
                     width: 92,
                   ),
